@@ -7,15 +7,15 @@ create table netology.customers (
 );
 
 insert into netology.customers (name, surname, age, phone_number)
-values ('Иван', 'Сидоров', 28, '89345623457');
+values ('Ivan', 'Sidorov', 28, '89345623457');
 insert into netology.customers (name, surname, age, phone_number)
-values ('Василий', 'Пупкин', 35, '89345823457');
+values ('Vasiliy', 'Pupkin', 35, '89345823457');
 insert into netology.customers (name, surname, age, phone_number)
-values ('Александр', 'Петров', 27, '89345693457');
+values ('Alexander', 'Petrov', 27, '89345693457');
 insert into netology.customers (name, surname, age, phone_number)
-values ('Александр', 'Васильев', 45, '89345693457');
+values ('Alexander', 'Vasiliev', 45, '89345693457');
 insert into netology.customers (name, surname, age, phone_number)
-values ('Alexey', 'Васильев', 45, '89345691457');
+values ('Alexey', 'Vasiliev', 45, '89345691457');
 insert into netology.customers (name, surname, age, phone_number)
 values ('AlExey', 'Petrov', 35, '89445691457');
 
@@ -29,12 +29,12 @@ create table netology.orders (
 );
 
 insert into netology.orders (date, customer_id, product_name, amount)
-values ('25.08.2023', 2, 'Кофе', 3);
+values ('25.08.2023', 2, 'Coffee', 3);
 insert into netology.orders (date, customer_id, product_name, amount)
-values ('05.08.2023', 4, 'Молоко', 2);
+values ('05.08.2023', 4, 'Milk', 2);
 insert into netology.orders (date, customer_id, product_name, amount)
-values ('05.07.2023', 3, 'Шкаф', 1);
+values ('05.07.2023', 3, 'Shelf', 1);
 insert into netology.orders (date, customer_id, product_name, amount)
-values ('15.08.2023', 5, 'Молоко', 2);
+values ('15.08.2023', 5, 'Milk', 2);
 insert into netology.orders (date, customer_id, product_name, amount)
-values ('02.07.2023', 6, 'Шкаф', 1);
+values ('02.07.2023', 6, 'Shelf', 1);
